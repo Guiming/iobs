@@ -1,0 +1,3 @@
+These are backup files for server files in folder "E:\jjc\Nodejs"
+
+The server serves to process (reproject geojson and convert to shapefile format) and save citizen observations in folder "E:\jjc\WebSites\egcDataFiles\lasha\citizen observations"

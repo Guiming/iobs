@@ -1,0 +1,9 @@
+start: node startServer.js
+
+Server will stop after closing cmd window
+
+
+If use startServer_in_background.bat to start server, server will keep working in background.
+To stop it:
+
+taskkill /IM node.exe -F
