@@ -1,0 +1,128 @@
+#map {
+	position:relative; /* with this, modal dialog works properly */
+	width: 100%;
+	height: 100%;
+	clear: left;
+	float: left;
+}
+
+.olControlLayerSwitcher{
+
+	position: absolute;
+	top: 40px;
+}
+
+.olControlLayerSwitcher .layersDiv {
+
+	background-color: #0064cd;
+}
+
+.olControlNavToolbar div {
+	display:block;
+	width:  28px;
+	height: 28px;
+	top: 300px;
+	left: 6px;
+	position: relative;
+}
+
+.olControlEditingToolbar .olControlNavigationItemActive {
+	background-image: url("../js/OpenLayers-2.12/theme/default/img/editing_tool_bar.png");
+	background-repeat: no-repeat;
+	/*background: rgba(0, 60, 136, 0.5);*/
+}
+.olControlEditingToolbar .olControlNavigationItemInactive {
+	background-image: url("../js/OpenLayers-2.12/theme/default/img/editing_tool_bar.png");
+	background-repeat: no-repeat;
+}
+
+.olControlEditingToolbar .olControlDrawPolygonItemActive {
+	background-image: url("../js/OpenLayers-2.12/theme/default/img/draw_polygon_on.png");
+	background-repeat: no-repeat;
+}
+.olControlEditingToolbar .olControlDrawPolygonItemInactive {
+	background-image: url("../js/OpenLayers-2.12/theme/default/img/draw_polygon_off.png");
+	background-repeat: no-repeat;
+}
+
+.olControlEditingToolbar .olControlDrawPolylineItemActive {
+	background-image: url("../js/OpenLayers-2.12/theme/default/img/draw_line_on.png");
+	background-repeat: no-repeat;
+}
+.olControlEditingToolbar .olControlDrawPolylineItemInactive {
+	background-image: url("../js/OpenLayers-2.12/theme/default/img/draw_line_off.png");
+	background-repeat: no-repeat;
+}
+
+.olControlEditingToolbar .olControlModifyPolygonItemActive {
+	background-image: url("../js/OpenLayers-2.12/theme/default/img/edit_polygon_on.png");
+	background-repeat: no-repeat;
+}
+.olControlEditingToolbar .olControlModifyPolygonItemInactive {
+	background-image: url("../js/OpenLayers-2.12/theme/default/img/edit_polygon_off.png");
+	background-repeat: no-repeat;
+}
+
+.olControlEditingToolbar .olControlModifyPolylineItemActive {
+	background-image: url("../js/OpenLayers-2.12/theme/default/img/edit_line_on.png");
+	background-repeat: no-repeat;
+}
+.olControlEditingToolbar .olControlModifyPolylineItemInactive {
+	background-image: url("../js/OpenLayers-2.12/theme/default/img/edit_line_off.png");
+	background-repeat: no-repeat;
+}
+.olControlEditingToolbar .olControlDeleteItemActive {
+	background-image: url("../js/OpenLayers-2.12/theme/default/img/delete_on.png");
+	background-repeat: no-repeat;
+}
+.olControlEditingToolbar .olControlDeleteItemInactive {
+	background-image: url("../js/OpenLayers-2.12/theme/default/img/delete_off.png");
+	background-repeat: no-repeat;
+}
+.olControlEditingToolbar .olControlSaveFeaturesItemActive {
+	background-image: url("../js/OpenLayers-2.12/theme/default/img/make_a_map.png");
+	background-repeat: no-repeat;
+}
+.olControlEditingToolbar .olControlSaveFeaturesItemInactive {
+	background-image: url("../js/OpenLayers-2.12/theme/default/img/make_a_map.png");
+	background-repeat: no-repeat;
+}
+
+.olControlEditingToolbar .olControlHelpItemActive {
+	background-image: url("../js/OpenLayers-2.12/theme/default/img/info_on.png");
+	background-repeat: no-repeat;
+}
+.olControlEditingToolbar .olControlHelpItemInactive {
+	background-image: url("../js/OpenLayers-2.12/theme/default/img/info_off.png");
+	background-repeat: no-repeat;
+}
+
+.olControlEditingToolbar {
+
+	/*background: rgba(0, 60, 136, 0.5);*/
+}
+
+.dataLayersDiv .baseLayersDiv {
+   /*display: inline;*/
+   /*line-height: 1.2em;*/
+	padding: 25px;
+}
+
+div.olControlScaleLine {
+
+	position: absolute;
+	left: auto;
+	bottom: 5px;
+	font-size: 0.8em;
+	right: 5px;
+	background-color: #d9d7d7;
+	opacity: 0.8;
+	margin: 20 20 20 20;
+	border:solid white 5px;
+
+}
+
+.popup {
+ 	font-size:0.9em;
+	line-height:120%;
+}

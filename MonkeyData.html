@@ -1,0 +1,60 @@
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        
+        <!--Google Map API-->
+        <script src="http://maps.google.com/maps/api/js?v=3&amp;sensor=false"></script>
+        
+        <!--OpenLayers-->
+        <!-- cannot find "../theme/default/style.css" if use this reference
+        <script type="text/javascript" src="js/OpenLayers-2.12/lib/OpenLayers.js"></script>
+        -->
+        <script src="js/OpenLayers-2.12/OpenLayers.js"></script>
+        <link rel="stylesheet" type="text/css" href="js/OpenLayers-2.12/theme/default/style.css">
+        
+        <!--customized popup-->
+        <script src="js/CSSPopup.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/CSSPopup.css">
+
+        
+        <!--alertify.js @ https://github.com/fabien-d/alertify.js/tree/0.3.11-->
+        <link rel="stylesheet" href="js/alertify.js-0.3.11/themes/alertify.core.css">
+        <link rel="stylesheet" href="js/alertify.js-0.3.11/themes/alertify.bootstrap.css"> 
+	    <script src="js/alertify.js-0.3.11/lib/alertify.js"></script>
+        
+                
+        <!--jQuery (hosted online)-->
+        <!--link rel="stylesheet" href="http://code.jquery.com/ui/1.11.0/themes/smoothness/jquery-ui.css"--> 
+		<link rel="stylesheet" href="css/custom-theme/jquery-ui-1.10.0.custom.css">
+        <link rel="stylesheet" href="css/style-jQueryDialogs.css">
+        <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="http://code.jquery.com/ui/1.11.0/jquery-ui.js"></script>     
+
+        <!--index-->
+        <script src="data/studyarea_google_mercator.js"></script>
+        <script src="js/server-interaction.js"></script>
+        <script src="js/dialogs-alertify.js"></script>
+        <script src="js/dialogs-jQuery.js"></script>      
+        <script src="js/map-interaction.js"></script> 
+        <script src="js/main.js"></script>
+        
+        <link rel="stylesheet" type="text/css" href="css/map.css" />
+        <!--link rel="stylesheet" href="css/style-jQueryDialogs.css"-->
+
+        
+    </head>
+    
+    <body onload="init()">          
+                 
+        <div id="map"></div> 
+        
+        <!--
+        <button id="btnUserInfo" class="button">User info.</button>        
+        <button id="btnSightingInfo" class="button">Sighting info.</button>
+        <button id="btnRouteInfo" class="button">Route info.</button>
+        <button id="btnDownload" class="button">Save local copy</button>
+        -->
+        
+    </body>
+
+</html>

@@ -1,0 +1,5 @@
+This is the website for EGC users to contribute citizen data on wildlife sightings and their activity routes.
+
+It's already been integrated with EGC_GUIMING.
+
+DATE: AUGUST 8, 2014
